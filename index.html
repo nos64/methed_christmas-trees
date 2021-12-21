@@ -12,10 +12,15 @@
 
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/default.css">
-  <link rel="stylesheet" href="style/logo.css">
   <link rel="stylesheet" href="style/header.css">
-  <link rel="stylesheet" href="style/navigation.css">
+  <link rel="stylesheet" href="style/logo.css">
   <link rel="stylesheet" href="style/burger.css">
+  <link rel="stylesheet" href="style/navigation.css">
+  <link rel="stylesheet" href="style/hero.css">
+
+
+
+
 
 
 
@@ -24,29 +29,29 @@
 <body>
   <header class="header">
     <div class="container header__container">
-      <svg class="header__logo logo" viewbox="0 0 164" role="img" aria-label="Логотип компании Christmas Trees">
+      <svg class="header__logo logo" viewbox="0 0 164 76" role="img" aria-label="Логотип компании Christmas Trees">
         <use xlink:href="#logo" />
       </svg>
 
       <button class="burger header__burger">
         <span class="burger__line"></span>
       </button>
-      
+
       <nav class="header__navigation navigation">
         <ul class="navigation__list">
-          <li class="navigation__iten">
+          <li class="navigation__item">
             <a href="" class="navigation__link">Пихта Фразера</a>
           </li>
 
-          <li class="navigation__iten">
+          <li class="navigation__item">
             <a href="" class="navigation__link">Русская ель</a>
           </li>
 
-          <li class="navigation__iten">
+          <li class="navigation__item">
             <a href="" class="navigation__link">Сибирская пихта </a>
           </li>
 
-          <li class="navigation__iten">
+          <li class="navigation__item">
             <a href="" class="navigation__link">Как оплатить?</a>
           </li>
         </ul>
@@ -56,8 +61,19 @@
   </header>
   <main>
     <section class="hero">
-      <div class="container">
-        <h1>Встречай Новый Год с прекрасной живой ёлочкой!</h1>
+      <div class="container hero__container">
+        <div class="hero__left">
+          <img class="hero__img" src="images/photo.jpg" width="705px" height="769px" alt="Красивая елка около камина">
+        </div>
+        <div class="hero__right">
+          <h1 class="hero__title">Встреч ай Новый Год с&NonBreakingSpace;прекрасной живой ёлочкой!</h1>
+          <p class="hero__description">У нас в наличии только самые пушистые и свежие ёлки</p>
+          <a class="hero__down" href="#one">
+            <img class="hero__down-img" src="images/bauble.png" alt="" width="113px" height="139px">
+            <span>Заказать</span>
+          </a>
+        </div>
+
 
       </div>
     </section>

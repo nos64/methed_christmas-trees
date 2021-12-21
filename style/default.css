@@ -53,12 +53,17 @@ h2 {
 }
 
 .container {
-  max-width: 1290px;
+  max-width: 1390px; /*С учетом добавленного паддинга*/
   margin: 0 auto;
+  padding: 0 50px; /*Добавив паддинг прибавляем эту величину *2 в max-width*/
 }
 
 .hide {
   display: none;
+}
+
+h1, h2, h3, p {
+  margin: 0;
 }
 
 a {
@@ -76,4 +81,30 @@ button,
 input {
   font: inherit;
   cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    padding: 0 42px;
+  }
+}
+
+@media (max-width: 1200px) {
+ 
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 39px;
+  }
+}
+
+@media (max-width: 760px) {
+ 
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding: 0 10px;
+  }
 }
