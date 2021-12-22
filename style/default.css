@@ -97,6 +97,9 @@ input {
   .container {
     padding: 0 39px;
   }
+  .b-page_newyear .b-head-decor {
+    top: -30px;
+  }
 }
 
 @media (max-width: 760px) {
