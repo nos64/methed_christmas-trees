@@ -10,6 +10,7 @@
 
 html {
   box-sizing:border-box;
+  scroll-behavior: smooth; /*Плавная прокрутка*/
 }
 
 /*Наслдеование box-sizing*/
@@ -35,11 +36,6 @@ body {
 h1,
 h2 {
   font-family: Cormorant, serif;
-  font-weight: 700;
-  font-size: 70px;
-  line-height: 100%;
-  color: var(--main-color);
-  letter-spacing: .01em;
 }
 
 .container {
