@@ -49,7 +49,7 @@ const createSnow = (n) => {
       left: ${Math.random() * window.innerWidth}px;
       opacity: ${Math.random()};
       animation-duration: ${Math.random() * n + 2}s;
-      background-image: url(snow/img/Snow${i}.svg);
+      background-image: url(snow/img/snow${i}.svg);
     `;
     
     document.body.append(snow);
