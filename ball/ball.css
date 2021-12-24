@@ -2,16 +2,16 @@ body {
    position: relative;
    z-index: 0;
    margin: 0;
-   padding: 3em 0 1em 0;
-
+   padding: 5em 0 1em 0;
 }
 
+/*padding: 5em 0 1em 0; изменить на padding: 3em 0 1em 0;*/
 .b-page__content {
-   min-height: 200px
+   min-height: 200px;
 }
 
 .b-head-decor {
-   display: none
+   display: none;
 }
 
 .b-page_newyear .b-head-decor {
@@ -22,7 +22,9 @@ body {
    height: 115px;
    width: 100%;
    overflow: hidden;
-   background: url(balls/b-head-decor_newyear.png) repeat-x 0 0
+   
+   background: url(balls/b-head-decor_newyear.png) repeat-x 0 0;
+   background-color: var(--main-color); /*Убрать после отключения таймера*/
 }
 
 @media (max-width: 1000px) {

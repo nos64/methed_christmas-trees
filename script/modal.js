@@ -9,8 +9,6 @@ buttonsOrder.forEach(buttonOrder => {
   })
 });
 
-console.log(buttonsOrder)
-console.log('overlayOrder: ', overlayOrder);
 
 overlayOrder.addEventListener('click', event => {
   const target = event.target;
